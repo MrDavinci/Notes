@@ -27,3 +27,7 @@ ESC，退出输入模式，切换到命令模式
 q 退出程序
 w 保存文件
 
+
+3.处理ssh断开的问题
+https://huanghailiang.github.io/2017/09/08/ssh%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%AD%E6%96%AD%EF%BC%8C%E5%A6%82%E4%BD%95%E8%AE%A9%E5%91%BD%E4%BB%A4%E7%BB%A7%E7%BB%AD%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%A7%E8%A1%8C/
+
