@@ -36,3 +36,7 @@ https://huanghailiang.github.io/2017/09/08/ssh%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%
 remote_user@remote_host 用实际的远程帐户和远程地址替换
 jupyter notebook --no-browser --port=8889
 
+5. ls -v | head -n 100   按顺序排序，然后输出前100个文件
+
+6.ls |head -n 1000 |xargs -i cp {} /home/xuqiong/data/testimg/nosee/test   复制前n个文件
+
