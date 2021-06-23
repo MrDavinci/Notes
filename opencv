@@ -1,0 +1,4 @@
+            fg = cv2.imread(self.fg[idx % self.fg_num])   # 将图片读取城ndarray 格式为HWC uint8
+            
+            #注意读取出来的Alpha mask 都是1和0
+            alpha = cv2.imread(self.alpha[idx % self.fg_num], 0) #.astype(np.float32) #/255
