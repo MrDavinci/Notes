@@ -2,3 +2,8 @@
             
             #注意读取出来的Alpha mask 都是1和0
             alpha = cv2.imread(self.alpha[idx % self.fg_num], 0) #.astype(np.float32) #/255
+            
+            
+            import numpy as np
+                np.set_printoptions(threshold=np.inf)
+                #这句可以让numpy输出所有
